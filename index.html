@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raushan's Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Login Page -->
+    <div id="login-page" class="page active">
+        <h1>Welcome to Raushan's World</h1>
+        <form id="login-form">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+    <!-- Home Page -->
+    <div id="home-page" class="page hidden">
+        <h1>Home</h1>
+        <p> Hey Raushan,
+            Thanks for coming in my life i am very greatful to have you in my life because from the day i hugged you for the first time i feel like miracle happened in my body.You are a perfect girl without any incompleteness in you what to say what not to i cant type buy trust me i have many more things to say you .I was the one who made you in trauma given alot of pain and all .,but you haave scarified alot for me which no one else can be in my life after you . After our breakup trust me there is not any single day when i have not seen your pics and vdos and regret myself what i did to the girl whom i promised to marry her.I have made a small website for you by myself hope you like it .  </p>
+        <button onclick="navigateTo('about-page')">About</button>
+        <button onclick="navigateTo('gallery-page')">Gallery</button>
+    </div>
+
+    <!-- About Page -->
+    <div id="about-page" class="page hidden">
+        <h1>About</h1>
+        <p>This site is specially designed for Raushan with love.</p>
+        <button onclick="navigateTo('home-page')">Home</button>
+        <button onclick="navigateTo('gallery-page')">Gallery</button>
+    </div>
+
+    <!-- Gallery Page -->
+    <div id="gallery-page" class="page hidden">
+        <h1>Gallery</h1>
+        <div class="gallery">
+            <img src="WhatsApp Image 2024-10-22 at 00.40.29_4b5e8f78.jpg" alt="Image 1">
+            <img src="WhatsApp Image 2024-10-22 at 00.40.30_59106486.jpg" alt="Image 2">
+            <img src="WhatsApp Image 2024-10-22 at 00.40.30_6e9faedd.jpg" alt="Image 3">
+        
+            <img src="WhatsApp Image 2024-10-22 at 00.40.30_ba1a42df.jpg" alt="Image 3">
+        </div>
+        <button onclick="navigateTo('home-page')">Home</button>
+        <button onclick="navigateTo('about-page')">About</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
